@@ -54,7 +54,7 @@ synchronization.
 
 # Monitoring
 
-- End-to-end transaction monitoring using Software AG’s monitoring tools.
+- End-to-end transaction monitoring using wM i.o end to end monitoring and open telemetry API's.
 - Real-time alerts and logging for tracking transaction flow.
 
 # DevSecOps
