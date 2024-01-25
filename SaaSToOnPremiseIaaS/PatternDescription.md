@@ -20,7 +20,7 @@ synchronization.
 
 # Logical Flow Structure
 
-![Logical flow](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/A1-Logical-Page-2.jpg)
+![Logical flow](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/A1-Logical.jpg)
 
 # Deployment Structure
 
