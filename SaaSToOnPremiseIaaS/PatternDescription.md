@@ -22,9 +22,7 @@ synchronization.
 
 # Logical Flow Structure
 
-```text
-[Contribution guidelines for this project]    SaaSToOnPremiseIaaS/A1-Logical-Page-2.jpg
-```
+![Logical Flow] https://github.com/bramhanayaghea/webMethodsCAF/tree/develop/SaaSToOnPremiseIaaS/### [A1-Logical-Page-2.jpg](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/A1-Logical-Page-2.jpg "A1-Logical-Page-2.jpg")
 
 # Deployment Structure
 
