@@ -22,7 +22,9 @@ synchronization.
 
 # Logical Flow Structure
 
-
+```text
+[Contribution guidelines for this project]    SaaSToOnPremiseIaaS/A1-Logical-Page-2.jpg
+```
 
 # Deployment Structure
 
