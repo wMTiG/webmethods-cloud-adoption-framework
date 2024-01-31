@@ -27,7 +27,7 @@ synchronization.
 # Deployment Structure
 
 
-![Depoloyment Arch](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/a1deployment.jpg)
+![Depoloyment Arch](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/a1deployment.png)
 
 - **Cloud Component**: Software AG’s webMethods.io or Integration Cloud deployed in the cloud.
 
