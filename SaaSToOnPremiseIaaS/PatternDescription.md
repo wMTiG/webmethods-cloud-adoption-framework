@@ -26,6 +26,9 @@ synchronization.
 
 # Deployment Structure
 
+
+![Depoloyment Arch](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/a1deployment.jpg)
+
 - **Cloud Component**: Software AG’s webMethods.io or Integration Cloud deployed in the cloud.
 
 - **On-Premises Component**: webMethods Integration Server or Terracotta for in-memory data storage and processing.
