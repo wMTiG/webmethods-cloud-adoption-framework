@@ -35,7 +35,7 @@ synchronization.
 # Variants
 
 - On-prem connectivity using https
-- On-Prem connectivity using private link for Customers private cloud - [https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/PatternDescriptionWtPrivateLink.md](Private Link)
+- On-Prem connectivity using private link for Customers private cloud - [https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/PatternDescriptionWtPrivateLink.md]
   
   
 
