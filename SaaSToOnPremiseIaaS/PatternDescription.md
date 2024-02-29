@@ -22,10 +22,7 @@ synchronization.
 
 ![Logical flow](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/A1-Logical.jpg)
 
-- 
-
 # Deployment Structure
-
 
 ![Depoloyment Arch](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/a1deployment.png)
 
@@ -37,13 +34,16 @@ synchronization.
 
 # Variants
 
-
-- On-Prem connectivity using private link
+- On-prem connectivity using https
+- On-Prem connectivity using private link for Customers private cloud - [https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/PatternDescriptionWtPrivateLink.md](Private Link)
+  
+  
 
 # Components
 
 - **Software AG webMethods.io**: Serves as the iPaaS for orchestrating integration.
 - **On-Premises Middleware**: webMethods Integration Server for handling on-premises business logic.
+- **IS Agent**
 - **Security Components**: Secure gateways, firewalls, and encryption tools.
 
 # Performance and Scaling
@@ -72,6 +72,9 @@ synchronization.
 
 - **Network Latency**: Implementing caching or data replication strategies.
 - **Security**: Establishing robust identity and access management protocols.
+- **Devops:** The current approach requires on-prem IS restart and update hybrid settings.
+- **Failover: ** There is no option to block a particular on-prem IS
+- Missing throttling capability
 
 # Associated Assets
 
