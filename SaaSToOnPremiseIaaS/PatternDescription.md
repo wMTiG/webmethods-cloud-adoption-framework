@@ -72,8 +72,8 @@ synchronization.
 
 - **Network Latency**: Implementing caching or data replication strategies.
 - **Security**: Establishing robust identity and access management protocols.
-- **Devops:** The current approach requires on-prem IS restart and update hybrid settings.
-- **Failover: ** There is no option to block a particular on-prem IS
+- **Cloud Ops:** The current approach requires on-prem IS restart and update hybrid settings.
+- **Failover Management:** There is no option to block a particular on-prem IS
 - Missing throttling capability
 
 # Associated Assets
