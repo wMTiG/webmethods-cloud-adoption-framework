@@ -70,4 +70,4 @@ A retail company's inventory management system, leveraging webMethods iPaas as A
 Tests for the core functionalities based on the CRUD operations 
 that involve interactions between the Inventory Management Application 
 (IMA), webMethods.io integration platform, and the on-premise inventory 
-database
+database. -[!TDD](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/scenarios/retail/InventoryManagement-TDD.md)
