@@ -20,14 +20,13 @@ synchronization.
 
 # Logical Flow Structure
 
-![Logical flow](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/A1-Logical-PvtLnk.jpg)
+![Logical flow](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/architectureModels/SaaSToOnPremiseIaaS/_images/A1-Logical-PvtLnk.jpg)
 
-- 
 
 # Deployment Structure
 
 
-![Depoloyment Arch](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/SaaSToOnPremiseIaaS/A1-Deployment-PvtLnk.jpg)
+![Depoloyment Arch](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/architectureModels/SaaSToOnPremiseIaaS/_images/A1-Deployment-PvtLnk.jpg)
 
 - **Cloud Component**: Software AG’s webMethods.io or Integration Cloud deployed in the cloud.
 
