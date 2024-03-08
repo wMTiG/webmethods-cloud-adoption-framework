@@ -1,0 +1,119 @@
+openapi: 3.0.0
+info:
+  title: Inventory Management API
+  version: 1.0.0
+  description: API for managing inventory levels in a retail system.
+servers:
+  - url: https://example.com/api/inventory
+    description: Inventory Management API Interface
+
+paths:
+  /{productId}/stock-level:
+    get:
+      summary: Get stock level for a product
+      operationId: getStockLevel
+      tags:
+        - Inventory
+      parameters:
+        - name: productId
+          in: path
+          required: true
+          description: Unique identifier of the product
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successfully retrieved stock level
+          content:
+            application/json:
+              schema:
+                type: integer
+                description: Stock level of the product
+        '404':
+          description: Product not found
+
+  /new-product:
+    post:
+      summary: Add a new product to the database
+      operationId: addNewProduct
+      tags:
+        - Inventory
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NewProduct'
+      responses:
+        '201':
+          description: Product created successfully
+
+  /{productId}/update-stock:
+    put:
+      summary: Update stock level for a product
+      operationId: updateStockLevel
+      tags:
+        - Inventory
+      parameters:
+        - name: productId
+          in: path
+          required: true
+          description: Unique identifier of the product
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                stockLevel:
+                  type: integer
+                  description: New stock level for the product
+      responses:
+        '200':
+          description: Stock level updated successfully
+        '404':
+          description: Product not found
+
+  /{productId}/delete:
+    delete:
+      summary: Remove a discontinued product
+      operationId: deleteProduct
+      tags:
+        - Inventory
+      parameters:
+        - name: productId
+          in: path
+          required: true
+          description: Unique identifier of the product
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Product deleted successfully
+        '404':
+          description: Product not found
+
+components:
+  schemas:
+    NewProduct:
+      type: object
+      required:
+        - name
+        - price
+      properties:
+        name:
+          type: string
+          description: Name of the product
+        price:
+          type: number
+          format: float
+          description: Price of the product
+        description:
+          type: string
+          description: Description of the product
+        category:
+          type: string
+          description: Category of the product
