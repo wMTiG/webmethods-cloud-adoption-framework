@@ -6,7 +6,7 @@ A retail company's inventory management system, leveraging webMethods iPaas as A
 
 **High-Level Architecture Overview**
 
-https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/scenarios/retail/_images/Hybrid-sync-flow.jpg
+![High level flow](https://github.com/bramhanayaghea/webMethodsCAF/blob/develop/scenarios/retail/_images/Hybrid-sync-flow.jpg)
 
 
 - **Inventory Database (On-Premise)**: This is the core repository for all inventory-related data, including stock levels, product information, pricing, and supplier details. It resides within the company's secure, on-premise infrastructure.
