@@ -37,7 +37,7 @@ A retail company's inventory management system, leveraging webMethods iPaas as A
    - API Gateway authenticates the request using API keys from a secure vault.
    - Integration Service enriches the request and transforms JSON payload as needed.
    - Hybrid Connector securely forwards the request to the on-premise SMR.
-   - SMR uses a JDBC adapter to execute the stock level query on the SQL Server.
+   - MSR uses a JDBC adapter to execute the stock level query on the SQL Server.
    - SQL Server processes the request and returns the stock level data back through the same path.
 
 2. **API Endpoint Definitions**:
