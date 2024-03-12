@@ -71,7 +71,8 @@ A retail company's inventory management system, leveraging webMethods iPaas as A
    - Enrichment of Channel information to the JSON Payload
    - Conversion of enriched payload to My SQL query parameters.
    - Mapping and validation of request data through Integration Service before database interaction.
-5- ##### System Configuration Details
+     
+5. **System Configuration Details**
    
    ###### API Gateway configuration
    - **Purpose**: Manages and secures API traffic between the IMA and backend services.
