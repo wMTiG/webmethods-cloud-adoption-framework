@@ -1,5 +1,3 @@
-
-
 ### Test Setup
 
 - **Environment Configuration**:
@@ -11,6 +9,7 @@
 - **Mock Services and Data Preparation**:
   
   - Prepopulate the test database with a variety of products and stock levels to cover different test scenarios.
+
 - **Test Cases**
 1. **Read (Query Stock Levels) Test Case**:
    
