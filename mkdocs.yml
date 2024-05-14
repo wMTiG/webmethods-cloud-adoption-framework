@@ -2,6 +2,9 @@ site_name: webMethods Cloud Adoption Framework
 theme:
   name: material
   logo: assets/logo.png
+  icon:
+    tag:
+      #accelerators: fontawesome/icons/tachometer-alt
 markdown_extensions:
   - tables
   - attr_list

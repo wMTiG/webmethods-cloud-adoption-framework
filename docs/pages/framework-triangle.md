@@ -1,3 +1,7 @@
+---
+tags:
+  - Accelerators
+---
 ## Cloud Adoption Framework - Value Triangle
 
 Implementation of cloud-based enterprise integration capabilities require changes not only in the solution design, but also the economic aspects of on-demand resources usage, overall architecture and operational management and governance. In this context, it is critical to start planning the transformation from the key business and I.T objectives, then the various architectural approaches followed by the process and tools for realizing those architectural models. This wholistic approach is the core of Software AG Cloud Adoption Framework.
