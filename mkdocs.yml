@@ -1,0 +1,19 @@
+site_name: webMethods Cloud Adoption Framework
+theme:
+  name: material
+  logo: assets/logo.png
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+nav:
+  - Introduction: index.md
+  - Framework - Value Triangle: pages/framework-triangle.md
+  - Motive: pages/motive.md
+  - Models: pages/models.md
+  - Methods: pages/methods.md
+  - Use Cases:
+    - webMethods Cloud Nativity Adoption Framework: pages/wmcnaf.md
+    - webMethods Hybrid iPaaS Transformation Framework: pages/whitf.md
+    - Framework for MuleSoft to webMethods.io migration: pages/framework-mule-io-migration.md
+  - References: pages/references.md
