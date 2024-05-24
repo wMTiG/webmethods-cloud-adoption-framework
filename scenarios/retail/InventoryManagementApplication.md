@@ -57,7 +57,7 @@ A retail company's inventory management system, leveraging webMethods iPaas as A
    - **CRUD Operations API Definitions**:
      
      - **Read GET (Query Stock Levels)**: An API endpoint `/gateway/inventory/{productId}/stock-level` for retrieving current stock levels.
-     - **Read GET (Get Product Details)**: An API endpoint '/gateway/inventory/v1/product?name={productName}' for getting product details
+     - **Read GET (Get Product Details)**: An API endpoint `/gateway/inventory/v1/product?name={productName}` for getting product details
      - **Create POST (Add New Product)**: An endpoint `/gateway/inventory/v1/product` for adding new product details to the database.
      - **Update PUT (Update Product Details)**: An endpoint `/gateway/inventory/v1/product` for updating stock quantities.
      - **Update PATCH (Adjust Stock Levels)**: An endpoint `/gateway/inventory/v1/product/{productName}/updateStock` for updating stock quantities.
