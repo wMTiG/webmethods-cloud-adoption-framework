@@ -1,4 +1,4 @@
-# Pattern Description
+ # Pattern Description
 
 This pattern describes an asynchronous messaging architecture for hybrid integration platforms that facilitate interactions between cloud-based SaaS applications and on-premises systems. The architecture is designed to enable efficient, reliable, and scalable communication, enhancing operational flexibility and system performance.
 
